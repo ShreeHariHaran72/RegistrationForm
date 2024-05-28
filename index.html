@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>RegistrationForm</h2>
+        <form action="#">
+            <div class="user_detail">
+                <div class="input_box">
+                    <span class="details">Full Name</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Your Full Name " required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Email</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Your E-mail " required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Phone Number</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text" placeholder="Your Phone Number " required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Birth Date</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Password</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Your Password " required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Confirm Password</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-user-lock"></i>
+                        <input type="password" placeholder="Confirm Your Password" required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Address</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-id-badge"></i>
+                        <input type="text" placeholder="Your Current Address" required>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <span class="details">Postal Code</span>
+                    <div class="icon">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <input type="tel" placeholder="Your Address Postal Code " required>
+                    </div>
+                </div>
+            </div>
+            <div class="user_gender">
+                <span class="details">Gender</span>
+                <div class="gender_category">
+                    <label for="male">
+                        <span>Male</span>
+                        <input type="radio" name="gender" id="male">
+                    </label>
+                    <label for="female">
+                        <span>Female</span>
+                        <input type="radio" name="gender" id="female">
+                    </label>
+                    <label for="other">
+                        <span>Other</span>
+                        <input type="radio" name="gender" id="other">
+                    </label>
+                </div>
+            </div>
+            <div class="terms_policy">
+                <p>
+                    By clicking Sign Up, you agree to our <a href="#">Terms, Privacy Policy </a> and <a href="#">Cookies Policy</a>. You may receive SMS notification from us and can opt out at any time.
+                </p>
+            </div>
+            <div class="button">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
